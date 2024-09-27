@@ -15,7 +15,8 @@ class OpenAIServiceImplTest {
     @Test
     void getAnswer() {
 //        String answer = openAIService.getAnswer("Write a python script to output numbers from 1 to 100");
-        String answer = openAIService.getAnswer("Write the game snake in python");
+//        String answer = openAIService.getAnswer("Write the game snake in python");
+        String answer = openAIService.getAnswer("Give me 10 sentence that end in the word apple");
         assertNotNull(answer, "Answer should not be null");
         System.out.println("Got the Answer :" + answer);
         System.out.println(answer);
